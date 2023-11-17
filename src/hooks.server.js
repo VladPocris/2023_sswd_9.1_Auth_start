@@ -1,12 +1,13 @@
-// src/hooks.server.js
+// import depencencies
 import { createServerClient } from '@supabase/ssr'
+
+// create the supabase 'server-side' client
 export const handle = async ({ event, resolve }) => {
   event.locals.supabase = createServerClient(
     import.meta.env.VITE_SUPABASE_URL,
     import.meta.env.VITE_SUPABASE_ANON_KEY,
     event
   )
-
 
   /**
    * a little helper that is written for convenience so that instead
