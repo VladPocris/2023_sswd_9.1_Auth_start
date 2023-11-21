@@ -25,7 +25,7 @@
 		<p>Long,Lat: {$form.longitude}, {$form.latitude}</p>
 		<p>shared: {$form.shared}</p>
 		<p>shared: {$form.favourite}</p>
-		<p><a href="/locations_6">Show Locations</a></p>
+		<p><a href="/locations">Show Locations</a></p>
 	{:else}
 	<!-- Otherwise show the form -->
 	<h1>Add Location</h1>

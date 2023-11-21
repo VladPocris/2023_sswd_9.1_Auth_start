@@ -22,7 +22,7 @@
 		<p>id: {$form.id}</p>
 		<p>name: {$form.name}</p>
 		<p>description: {$form.description}</p>
-		<p><a href="/locations_6">Show Locations</a></p>
+		<p><a href="/locations">Show Locations</a></p>
 	{:else}
 	<!-- Otherwise show the form -->
 	<h1>Add Category</h1>
